@@ -1,2 +1,3 @@
-# Three simulations have been designed here. The first simulation is that robot swarm tries to find one random selected box in the warehouse. 
-# The second simulation is that robot swarm try to find all boxes in the warehouse.
+# Three simulations have been designed here. The first simulation is that robot swarm tries to find one random selected box of n boxes in the warehouse. 
+# The second simulation is that robot swarm try to find all n boxes in the warehouse. The last simulation is used to calculate the time robot swarm uses to scan the whole area.
+# Main codes of three simulation are in area_coverage.py, find_all_object_can_pass_through_boxes.py, and find_one_object_can_pass_through_the_box.py.

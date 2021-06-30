@@ -1,1 +1,21 @@
+# Folder Data_cover_area stores the time robot swarm with different parameter pairs - scan scope ranging from 2cm to 60cm, number of robots ranging from 10 to 370,  to 300 uses to
+# scan the whole area.
 
+# Folder Raw_data_for_model_estimation stores the time robot swarm with different parameter pairs- scan scope ranging from 2cm to 60cm, number of robots ranging from 10 to 
+# 300 uses to find all boxes which ranges from 10 to 370, 10 boxes per change.
+
+# Folder find_all_objects_in_different_area stores the time and duplicate information. Robot swarm with scan scope ranging from 2cm to 60cm, number of robots ranging from 10 to 
+# 300 need find boxes ranging from 5 to 50 in 10m x 10m area. Robot swarm with scan scope ranging from 2cm to 60cm, number of robots ranging from 40 to 
+# 1200 need find boxes ranging from 5 to 50 in 20m x 20m area.
+
+# Folder find_all_objects_in_the_same_area stores the time and duplicate information. Robot swarm with scan scope ranging from 2cm to 60cm, number of robots ranging from 10 to 
+# 300 need find boxes ranging from 1 to 50 in 10m x 10m area.
+
+# Folder find_one_object_in_different_area_same_parameter_pairs stores the time and duplicate information. Robot swarm with scan scope ranging from 2cm to 60cm, number of robots 
+# ranging from 10 to 300 need find one box in 10m x 10m area, 20m x 20m area, 30m x 30m area, 40m x 40m area seperately.
+
+# Folder find_one_object_in_two_area_proportional_parameter_pair stores the time and duplicate information. Robot swarm with scan scope ranging from 2cm to 60cm, number of robots 
+# ranging from 10 to 300 need find the random selected box in 10m x 10m area. Robot swarm with scan scope ranging from 2cm to 60cm, number of robots ranging from 40 to 
+# 1200 need find the random selected box in 20m x 20m area.
+
+# Please refer to extract_data.py and read_data.py if you want to know how to transform the txt file to matrix and plot.

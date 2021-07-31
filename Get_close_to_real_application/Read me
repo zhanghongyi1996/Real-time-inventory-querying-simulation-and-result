@@ -1,1 +1,5 @@
+# This file splits the experimental environment into two different design. The first environment is a two layer structure where robots can move beneath the boxes without any 
+# conditions. The second environment is a one layer structure which simulates the scenario in Sabine's robotic laboratory - robots and boxes are on the same layer which means that 
+# robots can not pass through the boxes. 
 
+# Compared with the ideal model in 

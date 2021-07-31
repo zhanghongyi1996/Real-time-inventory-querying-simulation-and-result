@@ -2,4 +2,11 @@
 # conditions. The second environment is a one layer structure which simulates the scenario in Sabine's robotic laboratory - robots and boxes are on the same layer which means that 
 # robots can not pass through the boxes. 
 
-# Compared with the ideal model in 
+# The random and obstacle avoidance behavior of robot swarm is completely on the basis of random process and mathematical functions. The revised model here is to use different 
+# conditions and discrete commands to support the movement of robots. In revised model, only when robots come close to a certain range, they can feel the force. When they do not
+# feel the force, they just move based on their last direction. 
+
+# Compared with the ideal model in code of simulation where robots can detect the direction and distance between themselves and all other robots no matter where they are, a new 
+# parameter 'obstacle_feeling' is added here to limit the distance detection of the robot(the radius of robot and box is about 12.5cm is real application and distance sensor is implemented on the 
+# edge of the robot in real world. The value of the new parameter needs to be larger than 25cm in order to avoid two robots to collide with each other, it need to be larger than 
+# 12.5cm in order to avoid robot and wall to collide with each other).

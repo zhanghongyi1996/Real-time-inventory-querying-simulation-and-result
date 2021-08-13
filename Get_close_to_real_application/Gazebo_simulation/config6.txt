@@ -1,0 +1,27 @@
+robotPreference:
+  - robotId: rb00
+    x: 0
+    y: 0
+    theta: 0
+  - robotId: rb01
+    x: -1
+    y: -1
+    theta: 0
+  - robotId: rb02
+    x: 1
+    y: -1
+    theta: 0
+  - robotId: rb03
+    x: 1
+    y: 1
+    theta: 0
+  - robotId: rb04
+    x: -1
+    y: 1
+    theta: 0
+radios:
+  - 0: NRF52840
+updaterate: 500
+delimiter: 00
+controllerOptions: information_collection
+gazeboOptions: testing345
